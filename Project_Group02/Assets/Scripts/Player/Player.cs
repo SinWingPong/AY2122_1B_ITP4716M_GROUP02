@@ -202,18 +202,28 @@ public class Player : MonoBehaviour
     }
 
 
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Monster")
         {
             TakeDamage(other.gameObject.GetComponent<EnemiesData>().GetAttackDamage());
         }
-        if (other.gameObject.tag == "Finish")
+        
+        if(PlayerData.Key == 0 && other.gameObject.tag == "FirstStage")
+        {
+            SceneManager.LoadScene("Level_One");
+        }
+
+        if (PlayerData.Key == 1 && other.gameObject.tag == "SecondStage")
+        {
+            SceneManager.LoadScene("Level_Two");
+        }
+
+        if (PlayerData.Key == 2 && other.gameObject.tag == "Finish")
         {
             SceneManager.LoadScene("BossScene");
         }
-
-
     }
 
  

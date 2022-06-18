@@ -506,7 +506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &183346847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,7 +529,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -540,7 +540,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Elden is hope to finsih her daughter's last wish.
+  m_Text: '
+
+
+
+    The purpose of this time is to study the newly discovered ancient
+    Egyptian ruins.'
 --- !u!222 &183346848
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -566,7 +571,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 3.9914, y: -95.6454}
-  m_SizeDelta: {x: 1490.4546, y: 448.3418}
+  m_SizeDelta: {x: 1500, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &334706421
 GameObject:
@@ -619,7 +624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Edlen set off with her ashes. '
+  m_Text: But an unexpected accident is happened.
 --- !u!222 &334706423
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -722,7 +727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1156934005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -835,7 +840,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "During the journey, \nElden will encounter different monsters to block"
+  m_Text: Help Him and get him out of trouble..
 --- !u!222 &1194749938
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1195,10 +1200,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Elden had a daughter who was often sick and eventually died of illness,
-
-    and
-    her greatest wish was to travel around the world.'
+  m_Text: Elden is an expert on ancient Egyptian culture and he is an exorcist.
 --- !u!222 &1703889819
 CanvasRenderer:
   m_ObjectHideFlags: 0

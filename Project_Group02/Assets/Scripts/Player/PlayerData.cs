@@ -11,6 +11,7 @@ public class PlayerData : MonoBehaviour
 
     public int DialogueNumber;
 
+
     public static int MaxHealth = 100;
     public static int CurrentHealth = 100;
     public static int MaxMana = 100;
@@ -24,6 +25,7 @@ public class PlayerData : MonoBehaviour
     public static int MaxAmount;
     public static int CurrentAmount;
     public static int Skill = 0;
+    public static int Key = 0;
 
     public WeaponsDataScriptableObjects[] weapons;
 
@@ -38,7 +40,6 @@ public class PlayerData : MonoBehaviour
     public TextMeshProUGUI LevelText;
     public TextMeshProUGUI ExpText;
     public TextMeshProUGUI SkillText;
-
 
 
 
@@ -67,6 +68,10 @@ public class PlayerData : MonoBehaviour
 
     }
 
+    public int GetKey()
+    {
+        return Key;
+    }
   
 
     public void UpGradeMana()
